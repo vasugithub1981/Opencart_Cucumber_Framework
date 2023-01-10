@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: testRunner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 31.564 s <<< FAILURE! - in testRunner.TestRunner
+Login Data Driven with Excel.Login Data Driven Excel #1  Time elapsed: 5.826 s  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at StepDefinitions.steps.check_user_navigates_to_my_account_page_by_passing_email_and_password_with_excel_data(steps.java:167)
+	at ✽.check User navigates to MyAccount Page by passing Email and Password with excel row "1"(file:///C:/Users/user/Desktop/eclipse/Opencart_Cucumber_Framework/./Features/LoginDTTExcel.feature:8)
+
